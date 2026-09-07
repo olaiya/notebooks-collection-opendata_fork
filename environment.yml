@@ -1,6 +1,18 @@
-name: OxOpendata
+name: iris_test
+channels:
+  - defaults
+  - conda-forge
+  - atonarp
 dependencies:
-    - root
-    - numpy
-    - uproot
-    - hist
+  - python=3.11
+  - uproot
+  - pandas
+  - numpy
+  - tensorflow
+  - seaborn
+  - jupyter
+  - cernopendata-client
+  - fsspec-xrootd
+  - atlasopenmagic
+  - aiohttp
+  
